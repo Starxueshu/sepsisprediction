@@ -56,7 +56,7 @@ if st.button("Submit"):
     # image = shap.plots.force(shap_value)
     # image = shap.plots.bar(shap_value)
     st.pyplot(shap.plots.waterfall(shap_value[0]))
-    st.pyplot(shap.plots.force(shap_value[0], matplotlib=True))
+    #st.pyplot(shap.plots.force(shap_value[0], matplotlib=True))
     #st.pyplot(shap.plots.bar(shap_value[0]))
     st.text(f"Note: Blue items indicate protective factors, while red items indicate risk factors.")
     st.set_option('deprecation.showPyplotGlobalUse', False)
